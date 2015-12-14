@@ -1,0 +1,21 @@
+(module CAPC1608X06L (layer F.Cu) (tedit 4289BEAB)
+  (attr smd)
+  (fp_text reference C9 (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.05)))
+  )
+  (fp_text value "Chip Capacitor, 2-Leads, Body 1.6x0.8mm, IPC High Density" (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.05)))
+  )
+  (pad 1 smd rect (at 0 0.675 180) (size 0.800001 0.750001) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 -0.675 180) (size 0.800001 0.750001) (layers F.Cu F.Paste F.Mask))
+  (model "${KIPRJMOD}/dcdc.3dshapes/wrl/User Library-Chip Capacitor 0603.wrl"
+    (at (xyz 0.01693 -0 0.015748))
+    (scale (xyz 0.39370078740158 0.39370078740158 0.39370078740158))
+    (rotate (xyz 360 360 270))
+  )
+  (model ${KIPRJMOD}/dcdc.3dshapes/wrlshp/B6A667F8-9D07.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+)

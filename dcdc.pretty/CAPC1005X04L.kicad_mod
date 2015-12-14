@@ -1,0 +1,21 @@
+(module CAPC1005X04L (layer F.Cu) (tedit 4289BEAB)
+  (attr smd)
+  (fp_text reference C4 (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.05)))
+  )
+  (fp_text value "Chip Capacitor, 2-Leads, Body 1.0x0.5mm, IPC High Density" (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.05)))
+  )
+  (pad 1 smd rect (at -0.5 0 90) (size 0.499999 0.599999) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0.5 0 90) (size 0.499999 0.599999) (layers F.Cu F.Paste F.Mask))
+  (model "${KIPRJMOD}/dcdc.3dshapes/wrl/User Library-0402(1005M) Cap.wrl"
+    (at (xyz 0 0 0.019685))
+    (scale (xyz 0.39370078740158 0.39370078740158 0.39370078740158))
+    (rotate (xyz 270 180 0))
+  )
+  (model ${KIPRJMOD}/dcdc.3dshapes/wrlshp/27F8D307-C50E.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 360))
+  )
+)

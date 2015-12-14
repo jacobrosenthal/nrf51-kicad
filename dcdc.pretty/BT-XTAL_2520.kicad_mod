@@ -1,0 +1,28 @@
+(module BT-XTAL_2520 (layer F.Cu) (tedit 566F8442)
+  (attr smd)
+  (fp_text reference X1 (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.05)))
+  )
+  (fp_text value TSX-2520 (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.05)))
+  )
+  (pad 4 smd rect (at 1.09601 -0.10606 225) (size 1.2 1.1) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0.10607 -1.09601 225) (size 1.2 1.1) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -0.10607 1.09602 225) (size 1.2 1.1) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at -1.09601 0.10607 225) (size 1.2 1.1) (layers F.Cu F.Paste F.Mask))
+  (model "${KIPRJMOD}/dcdc.3dshapes/wrl/User Library-GeyerElectronics_KX6.wrl"
+    (at (xyz -0.00028 -0.00028 0))
+    (scale (xyz 0.39370078740158 0.39370078740158 0.39370078740158))
+    (rotate (xyz 270 360 135))
+  )
+  (model ${KIPRJMOD}/dcdc.3dshapes/wrlshp/AFAD9782-D084.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 225))
+  )
+  (model ${KIPRJMOD}/dcdc.3dshapes/wrlshp/A6760B87-8591.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+)
