@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:nrf51822
-LIBS:sticker-cache
+LIBS:nrf51x22_qfax_dcdc-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

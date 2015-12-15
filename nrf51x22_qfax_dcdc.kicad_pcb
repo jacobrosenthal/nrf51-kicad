@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.0-stable)
 
   (general
-    (links 67)
+    (links 65)
     (no_connects 3)
     (area 76.307339 -95.473821 91.295321 -78.913019)
     (thickness 1.6)
@@ -957,7 +957,7 @@
       (net 9 "Net-(C6-Pad1)"))
   )
 
-  (module dcdc:BT-XTAL_2520 (layer F.Cu) (tedit 56704955) (tstamp 56704807)
+  (module dcdc:BT-XTAL_2520 (layer F.Cu) (tedit 56704BB3) (tstamp 56704807)
     (at 86.112528 -92.451225 180)
     (path /566BCA38)
     (attr smd)
