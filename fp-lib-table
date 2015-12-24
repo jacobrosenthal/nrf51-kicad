@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name dcdc)(type KiCad)(uri "$(KIPRJMOD)/dcdc.pretty")(options "")(descr ""))
+  (lib (name nrf)(type KiCad)(uri "$(KIPRJMOD)/nrf.pretty")(options "")(descr ""))
+)
