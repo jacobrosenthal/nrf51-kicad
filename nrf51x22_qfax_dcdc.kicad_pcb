@@ -3,7 +3,7 @@
   (general
     (links 67)
     (no_connects 3)
-    (area 41.129536 -98.38002 117.176334 -76.15682)
+    (area 76.307339 -95.473821 91.295321 -78.913019)
     (thickness 1.6)
     (drawings 30)
     (tracks 216)
@@ -510,7 +510,7 @@
     (at 84.105933 -85.491617)
     (descr "QFN, 48-Leads, Body 6,0x6,0mm (max), Pitch 0,40mm, IPC Medium Density")
     (tags "QFN 0.4")
-    (path /566D0C90)
+    (path /567DBE79)
     (attr smd)
     (fp_text reference U1 (at 0.254 -4.318) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -957,7 +957,7 @@
       (net 9 "Net-(C6-Pad1)"))
   )
 
-  (module dcdc:BT-XTAL_2520 (layer F.Cu) (tedit 56704BB3) (tstamp 56704807)
+  (module dcdc:BT-XTAL_2520 (layer F.Cu) (tedit 567DB962) (tstamp 56704807)
     (at 86.112528 -92.451225 180)
     (path /566BCA38)
     (attr smd)
