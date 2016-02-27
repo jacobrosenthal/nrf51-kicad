@@ -1,13 +1,19 @@
-(module XTAL_3215 (layer F.Cu) (tedit 4289BEAB)
+(module XTAL_3215 (layer F.Cu) (tedit 56897EA8)
   (attr smd)
-  (fp_text reference X2 (at 0 0) (layer F.SilkS) hide
+  (fp_text reference X2 (at 0 -3) (layer F.SilkS) hide
     (effects (font (thickness 0.05)))
   )
-  (fp_text value "XTAL SMD 3.2 x 1.5 mm" (at 0 0) (layer F.SilkS) hide
+  (fp_text value "XTAL SMD 3.2 x 1.5 mm" (at 0 3) (layer F.SilkS) hide
     (effects (font (thickness 0.05)))
   )
-  (pad 2 smd rect (at -1.25 0 180) (size 1.000001 1.799999) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at 1.25 0 180) (size 1.000001 1.799999) (layers F.Cu F.Paste F.Mask))
+  (fp_line (start -2 -1.15) (end 2 -1.15) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 2 -1.15) (end 2 1.15) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 2 1.15) (end -2 1.15) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -2 1.15) (end -2 -1.15) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 0.5 0.75) (end -0.5 0.75) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.5 -0.75) (end 0.5 -0.75) (layer F.SilkS) (width 0.15))
+  (pad 2 smd rect (at 1.25 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -1.25 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask))
   (model "${KIPRJMOD}/dcdc.3dshapes/wrl/User Library-Siward_SX3215.wrl"
     (at (xyz -0 -0 0))
     (scale (xyz 0.39370078740158 0.39370078740158 0.39370078740158))

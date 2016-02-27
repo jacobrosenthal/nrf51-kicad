@@ -1,13 +1,13 @@
-(module INDC1005X04L (layer F.Cu) (tedit 4289BEAB)
+(module INDC1005X04L (layer F.Cu) (tedit 56897F26)
   (attr smd)
-  (fp_text reference L1 (at 0 0) (layer F.SilkS) hide
+  (fp_text reference L1 (at 0 2) (layer F.SilkS) hide
     (effects (font (thickness 0.05)))
   )
-  (fp_text value "Chip Inductor, 2-Leads, Body 1.0x0.5mm, IPC High Density" (at 0 0) (layer F.SilkS) hide
+  (fp_text value "Chip Inductor, 2-Leads, Body 1.0x0.5mm, IPC High Density" (at 0 -2) (layer F.SilkS) hide
     (effects (font (thickness 0.05)))
   )
-  (pad 1 smd rect (at 0 0.475 180) (size 0.499999 0.650001) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0 -0.475 180) (size 0.499999 0.650001) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0 -0.475) (size 0.499999 0.650001) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 0.475) (size 0.499999 0.650001) (layers F.Cu F.Paste F.Mask))
   (model "${KIPRJMOD}/dcdc.3dshapes/wrl/User Library-Chip Inductor 0402.wrl"
     (at (xyz 0.01181 0 0.009842500000000001))
     (scale (xyz 0.39370078740158 0.39370078740158 0.39370078740158))

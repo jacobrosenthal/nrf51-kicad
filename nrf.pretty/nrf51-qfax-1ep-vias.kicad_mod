@@ -85,4 +85,9 @@
   (pad 49 thru_hole circle (at -0.6 1.8) (size 0.6096 0.6096) (drill 0.3048) (layers *.Cu *.Mask F.SilkS))
   (pad 49 thru_hole circle (at 0.6 1.8) (size 0.6096 0.6096) (drill 0.3048) (layers *.Cu *.Mask F.SilkS))
   (pad 49 thru_hole circle (at 1.8 1.8) (size 0.6096 0.6096) (drill 0.3048) (layers *.Cu *.Mask F.SilkS))
+  (model Housings_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_Pitch0.5mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.80 0.80 0.80))
+    (rotate (xyz 0 0 0))
+  )
 )
