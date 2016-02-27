@@ -23,6 +23,5 @@ Fixed issues:
 * File-Archive Footprints->Create library Exported the footprints out of the design into a proper library, and moved the .3dshapes locally as well
 
 Known issues:
-* Im using the standard crystal symbol which doesnt have GND hookups, so Im just editing pad 3 and pad4 of X1 to set their net to GND. This gets undone on a new Netlist read.
 * Keepouts are really picky in kicad and Im so far too lazy to stich around all the pads, so traces in that region are showing as airwires even though theyre connected
 * Altium has the no poly islands smaller than xsq but kicad doesnt appear to which means a few little islands exist on our gerbers that dont on theirs.
